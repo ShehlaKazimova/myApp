@@ -1,0 +1,504 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background: linear-gradient(242.86deg, #DAECF7 -0.78%, rgba(217, 236, 247, 0.542464) 4.42%, rgba(218, 224, 227, 0.365287) 9.08%, rgba(218, 221, 223, 0.233916) 22.11%, rgba(218, 220, 221, 0.163882) 26.74%, rgba(217, 219, 220, 0.106764) 34.37%, rgba(255, 255, 255, 0.0740468) 49.83%, rgba(217, 217, 217, 0) 100.71%);
+  width: 100%;
+}
+
+.firstPage {
+  display: flex;
+}
+
+.signUpCont {
+  width: 504px;
+  position: relative;
+  left: 130px;
+
+}
+
+.signUp {
+  width: 186px;
+  height: 72px;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.underline {
+  width: 60px;
+  border-bottom: 3px solid #000000;
+}
+
+.signupwith {
+  width: 106px;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #FFB7D5;
+  position: relative;
+  top: 6px;
+}
+
+.undersign {
+  display: flex;
+  width: 38%;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 50px;
+  width: 90%;
+}
+
+.button {
+  width: 49%;
+  height: 35px;
+  background-color: #fff;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+}
+
+
+.button-text {
+  font-family: Poppins;
+  font-size: 1.2vh;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #494949;
+  position: relative;
+  top: -4px;
+}
+
+.text-or {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  position: relative;
+  top: 60px;
+  text-align: center;
+  left: -38px;
+}
+
+
+.socialLogo {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 1px;
+  left: -10px;
+}
+
+.label {
+  display: block;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  bottom: 15px;
+}
+
+.inputtype {
+  display: flex;
+  width: 83%;
+  justify-content: space-between;
+}
+
+.forminput {
+  position: relative;
+  top: 60px;
+}
+
+.text-email {
+  width: 115%;
+  height: 36px;
+  background-color: #FAFDFF;
+  border: 1px solid #E8E8E8;
+  border-radius: 10px;
+}
+
+.password {
+  width: 81%;
+}
+
+input::placeholder {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  opacity: 0.4;
+  padding-left: 20px;
+}
+
+.input-password {
+  position: relative;
+  top: 30px;
+}
+
+.agreecheck {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  background-color: #FAFDFF;
+  border-radius: 6px;
+  border: 1px solid #E3E2E2;
+}
+
+.label-checkbox {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: #000000;
+  position: relative;
+  left: 15px;
+  bottom: 3px;
+
+}
+
+.button-end {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 80px;
+  border-radius: 28px;
+  background-color: #FFB7D5;
+
+  border: none;
+}
+
+.button-end:hover {
+  box-shadow: 0px 10px 30px 0px #FFB7D5;
+}
+
+.button-arrow {
+  font-size: 23px;
+  color: #FFFFFF;
+}
+
+.footer-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  position: relative;
+  top: 90px;
+  color: #000000;
+}
+
+.footer-text2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #FFB7D5;
+}
+
+.layer {
+  width: 70%;
+  height: 640px;
+}
+
+.mainPage {
+  width: 100%;
+  display: flex;
+}
+
+.first {
+  width: 60%;
+  height: 800px;
+  background-color: #fff;
+}
+
+.miniCont {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.sign-title {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.sign-com {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #000000;
+  position: relative;
+  top: -35px;
+}
+
+.sign-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  position: relative;
+  top: -55px;
+  color: #8D8D8D;
+}
+
+.button1 {
+  display: flex;
+  margin: auto;
+  width: 500px;
+  height: 80px;
+  border: 1px solid #E5E5E5;
+  background-color: #fff;
+  border-radius: 15px;
+
+}
+
+.img-human {
+  padding: 15px;
+}
+
+.button-text {
+  font-family: Poppins;
+  font-size: 1.8vh;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 250px;
+  color: #000000;
+
+}
+
+.text2 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  text-align: left;
+  position: relative;
+  top: -15px;
+}
+
+.cont-text {
+  padding: 5px;
+}
+
+.button-checkbox {
+  /* width: 20px;
+  height: 20px;
+  border: 1px solid #E5E5E5;
+  border-radius: 50%;
+  position: relative;
+  top: 8px;
+  left: 50px; */
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-checkbox:checked {
+  background-color: gray;
+}
+
+.button2 {
+  margin-top: 30px;
+}
+
+.footer-text3 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  position: relative;
+  top: 40px;
+}
+
+.footer-text4 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.second {
+  width: 40%;
+  background-image: url("./page2/Rectangle8.png");
+}
+
+.second-text {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  width: 470px;
+}
+
+.second-text-container {
+  margin: 150px 100px;
+}
+
+.author {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+
+}
+
+.symbol {
+  width: 25px;
+  position: relative;
+  right: 5px;
+}
+
+.authorjob {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #8C8C8C;
+  position: relative;
+  top: -18px;
+}
+
+@media (max-width: 1130px) {
+  .firstPage {
+    display: block;
+  }
+
+  .layer {
+    width: 100%;
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 598px) {
+  .socialMedia {
+    display: block;
+    width: 50%;
+  }
+
+  .button {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .inputtype {
+    width: 50%;
+    display: block;
+  }
+
+  .password {
+    width: 57%;
+  }
+
+  .label {
+    bottom: 0px;
+  }
+
+  .agreecheck {
+    width: 50%;
+  }
+
+  .text-or {
+    width: 50%;
+  }
+}
+
+@media (max-width: 440px) {
+  .inputtype {
+    width: 35%;
+  }
+
+  .password {
+    width: 40%;
+  }
+
+  .signUpCont {
+    left: 50px;
+  }
+}
